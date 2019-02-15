@@ -1,3 +1,32 @@
+mat-toolbar .container .nav span {
+  overflow: hidden;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.masthead p {
+  color: #fff;
+  font-size: 1.15rem;
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #FFCD42;
+}
+
+header.masthead {
+  padding-top: 15rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../../../assets/img/pexels-photo-669610.jpeg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../../assets/img/pexels-photo-669610.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 /*!
  * Start Bootstrap - Creative v5.1.1 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2019 Start Bootstrap
@@ -10,6 +39,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+/*
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -60,7 +90,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  margin: 0;
+  margin: 0 ;
   font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
@@ -10487,8 +10517,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../../../assets/img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../../assets/img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../../../assets/img/pexels-photo-669610.jpeg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../../assets/img/pexels-photo-669610.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10570,3 +10600,4 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+*/
