@@ -19,6 +19,7 @@ import {
   MatToolbarModule
 } from '@angular/material';
 import {CommonModule} from '@angular/common';
+import { LoginComponent } from './public/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {CommonModule} from '@angular/common';
     HomeComponent,
     NotFoundComponent,
     HeaderComponent,
-    SidenavListComponent
+    SidenavListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

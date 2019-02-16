@@ -19,13 +19,6 @@ a {
   margin-left: 20px;
 }
 
-.login {
-  color: white;
-}
-.login a {
-  margin-left: 5px;
-}
-
 mat-toolbar{
   border-radius: 3px;
 }

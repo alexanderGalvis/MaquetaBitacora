@@ -13,7 +13,7 @@ mat-toolbar .container .nav span {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #FFCD42;
+  border-color: #673AB7;
 }
 
 header.masthead {
@@ -28,11 +28,15 @@ header.masthead {
 }
 
 .page-section {
+  padding: 1rem 0;
+}
+
+.page-section-contact {
   padding: 8rem 0;
 }
 
 .text-primary {
-  color: #FFCD42 !important;
+  color: #673AB7 !important;
 }
 .whatsApp {
   color: #25d366;

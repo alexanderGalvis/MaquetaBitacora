@@ -1,4 +1,4 @@
-<mat-toolbar color="accent" >
+<mat-toolbar color="primary" >
   <div fxHide.gt-xs>
     <button mat-icon-button (click)="onToggleSidenav()">
       <mat-icon>menu</mat-icon>
@@ -10,16 +10,16 @@
   <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
     <ul fxLayout fxLayoutGap="15px" class="navigation-items">
       <li>
+        <a href="#">Login</a>
+      </li>
+      <li>
+        <a href="#services">Registro</a>
+      </li>
+      <li>
         <a href="#services">Servicios</a>
       </li>
       <li>
         <a href="#contact">Contáctenos</a>
-      </li>
-      <li class="align-items-center">
-        <div class="login d-flex align-items-center justify-content-center">
-        <i class="fas fa-user-circle fa-2x"></i>
-        <a href="#">Login</a>
-        </div>
       </li>
     </ul>
   </div>
