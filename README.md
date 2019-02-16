@@ -28,3 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Ref
 Menu [MenuAngularMaterial](https://code-maze.com/angular-material-navigation/)
+Dialog [DialogAngularMaterial](https://blog.thoughtram.io/angular/2017/11/13/easy-dialogs-with-angular-material.html)

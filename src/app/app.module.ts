@@ -10,8 +10,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { HeaderComponent } from './public/navigation/header/header.component';
 import { SidenavListComponent } from './public/navigation/sidenav-list/sidenav-list.component';
 import {
-  MatButtonModule,
-  MatIconModule,
+  MatButtonModule, MatDialogModule, MatDialogTitle,
+  MatIconModule, MatInputModule,
   MatListModule,
   MatMenuModule,
   MatSidenavModule,
@@ -20,6 +20,7 @@ import {
 } from '@angular/material';
 import {CommonModule} from '@angular/common';
 import { LoginComponent } from './public/login/login.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,8 @@ import { LoginComponent } from './public/login/login.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
     FlexLayoutModule,
     MatMenuModule,
     MatListModule,
@@ -42,9 +45,12 @@ import { LoginComponent } from './public/login/login.component';
     MatToolbarModule,
     CommonModule,
     MatTabsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatDialogModule,
+    MatInputModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [LoginComponent]
 })
 export class AppModule { }
