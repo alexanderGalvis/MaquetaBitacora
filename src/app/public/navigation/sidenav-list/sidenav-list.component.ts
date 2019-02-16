@@ -1,4 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import {MatDialog, MatDialogRef} from '@angular/material';
+import {LoginComponent} from '../../login/login.component';
 
 @Component({
   selector: 'app-sidenav-list',
@@ -8,13 +10,22 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 export class SidenavListComponent implements OnInit {
   @Output() sidenavClose = new EventEmitter();
 
-  constructor() { }
+  loginDialogRef: MatDialogRef<LoginComponent>;
+
+  constructor(private dialog: MatDialog) {}
 
   ngOnInit() {
   }
 
   public onSidenavClose = () => {
     this.sidenavClose.emit();
+  }
+
+  public openLoginDialog () {
+    this.sidenavClose.emit();
+    this.loginDialogRef = this.dialog.open(LoginComponent, {
+      hasBackdrop: true
+    });
   }
 
 }
