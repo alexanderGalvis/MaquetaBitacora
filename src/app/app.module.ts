@@ -9,7 +9,16 @@ import { NotFoundComponent } from './public/not-found/not-found.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { HeaderComponent } from './public/navigation/header/header.component';
 import { SidenavListComponent } from './public/navigation/sidenav-list/sidenav-list.component';
-import {MaterialModule} from './material/material.module';
+import {
+  MatButtonModule,
+  MatIconModule,
+  MatListModule,
+  MatMenuModule,
+  MatSidenavModule,
+  MatTabsModule,
+  MatToolbarModule
+} from '@angular/material';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -23,8 +32,15 @@ import {MaterialModule} from './material/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule,
     FlexLayoutModule,
+    MatMenuModule,
+    MatListModule,
+    MatButtonModule,
+    MatIconModule,
+    MatToolbarModule,
+    CommonModule,
+    MatTabsModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

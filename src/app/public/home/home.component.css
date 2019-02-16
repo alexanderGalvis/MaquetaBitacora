@@ -27,6 +27,22 @@ header.masthead {
   background-size: cover;
 }
 
+.page-section {
+  padding: 8rem 0;
+}
+
+.text-primary {
+  color: #FFCD42 !important;
+}
+.whatsApp {
+  color: #25d366;
+}
+.facebook {
+ color: #3b5998;
+}
+.mail {
+  color: #003153;
+}
 /*!
  * Start Bootstrap - Creative v5.1.1 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2019 Start Bootstrap
